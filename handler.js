@@ -95,8 +95,8 @@ module.exports = {
           if (!('viewonce' in chat)) chat.viewonce = true
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: false,
-          detect: false,
+          welcome: true,
+          detect: true,
           sWelcome: '',
           sBye: '',
           sPromote: '',
@@ -109,7 +109,7 @@ module.exports = {
           expired: 0,
           getmsg: false,
           read: true,
-          stiker: false,
+          stiker: true,
           viewonce: true,
         }
 
@@ -132,7 +132,7 @@ module.exports = {
           if (!isNumber(settings.status)) settings.status = 0
         } else global.db.data.settings[this.user.jid] = {
           anon: true,
-          anticall: true,
+          anticall: false,
           antispam: true,
           antitroli: true,
           autoupdatestatus: false,
@@ -140,8 +140,8 @@ module.exports = {
           buggc: true,
           backupTime: 0,
           group: false,
-          jadibot: false,
-          nsfw: true,
+          jadibot: true,
+          nsfw: false,
           restrict: false,
           self: false,
           status: 0,
