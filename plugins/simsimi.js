@@ -7,7 +7,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
   let json = await res.json()
   await m.reply(`*Simi:* ${json.success}`)
 }
-handler.help = ['simi', 'simsimi'].map(v => v + ' <teks>')
+handler.help = ['simi', 'simsimi', 'z', 'Z'].map(v => v + ' <teks>')
 handler.tags = ['fun']
 handler.command = /^((sim)?simi|simih)$/i
 
