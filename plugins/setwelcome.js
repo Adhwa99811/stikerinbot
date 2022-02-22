@@ -8,5 +8,5 @@ let handler = async (m, { conn, text, isOwner, usedPrefix, command }) => {
 handler.help = ['setwelcome <teks>']
 handler.tags = ['owner', 'group']
 handler.command = /^setwelcome$/i
-
+handler.rowner = true
 module.exports = handler
