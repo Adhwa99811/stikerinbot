@@ -42,6 +42,10 @@ const defaultMenu = {
 │ Uptime: %uptime
 │ User: %rtotalreg dari %totalreg
 ╰────
+
+╭─「 Group 」
+https://chat.whatsapp.com/D8RCtjHXJEM3BZ17vBrsue
+╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
