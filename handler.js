@@ -109,7 +109,7 @@ module.exports = {
           expired: 0,
           getmsg: false,
           read: true,
-          stiker: true,
+          stiker: false,
           viewonce: true,
         }
 
