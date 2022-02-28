@@ -19,11 +19,11 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
-  'https://melcanz.com': 'trial',
+  'https://melcanz.com': '9smjaa2y',
   'https://api.reysekha.my.id': 'apirey',
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto.xyz': 'hardianto',
-  'https://api.neoxr.eu.org': 'yntkts',
+  'https://api.neoxr.eu.org': 'BOXEqyg8AV',
   'https://api.chipa.xyz': 'pais',
   'https://api.xteam.xyz': 'cristian9407',
   'https://api.zeks.me': 'apivinz',
